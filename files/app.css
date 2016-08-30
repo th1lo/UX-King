@@ -463,17 +463,17 @@ h2 {
     #header .logo {
       padding: 20px 0 0 20px;
       width: 40px;
-      height: 32px; }
+      height: 40px; }
       #header .logo .ux-king {
         width: 40px;
-        height: 32px;
-        background-size: 40px 32px; }
+        height: 40px;
+        background-size: 40px 40px; }
     #header .work {
       padding: 20px 20px 0 0; }
       #header .work a {
         padding: 0;
         width: 40px;
-        height: 32px;
+        height: 40px;
         line-height: 32px; } }
 
 /**
