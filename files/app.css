@@ -462,18 +462,18 @@ h2 {
       display: none; }
     #header .logo {
       padding: 20px 0 0 20px;
-      width: 40px;
-      height: 40px; }
+      width: 32px;
+      height: 32px; }
       #header .logo .ux-king {
-        width: 40px;
-        height: 40px;
-        background-size: 40px 40px; }
+        width: 32px;
+        height: 32px;
+        background-size: 32px 32px; }
     #header .work {
       padding: 20px 20px 0 0; }
       #header .work a {
         padding: 0;
-        width: 40px;
-        height: 40px;
+        width: 32px;
+        height: 32px;
         line-height: 32px; } }
 
 /**
