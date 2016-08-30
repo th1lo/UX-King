@@ -1,0 +1,226 @@
+//output:index.html
+html(ng-app="UI8")
+  head
+    meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no')
+    title UX King | Webdesign Agentur aus Berlin. Ihr Spezialist für User Experience.
+    meta(name='description', content='UX-King (munum GmbH) ist eine in Berlin ansässige Agentur mit dem Fokus auf innovative User Experience Konzepte.')
+    link(rel='apple-touch-icon-precomposed', sizes='57x57', href='/assets/img/favicon/apple-touch-icon-57x57.png')
+    link(rel='apple-touch-icon-precomposed', sizes='114x114', href='/assets/img/favicon/apple-touch-icon-114x114.png')
+    link(rel='apple-touch-icon-precomposed', sizes='72x72', href='/assets/img/favicon/apple-touch-icon-72x72.png')
+    link(rel='apple-touch-icon-precomposed', sizes='144x144', href='/assets/img/favicon/apple-touch-icon-144x144.png')
+    link(rel='apple-touch-icon-precomposed', sizes='60x60', href='/assets/img/favicon/apple-touch-icon-60x60.png')
+    link(rel='apple-touch-icon-precomposed', sizes='120x120', href='/assets/img/favicon/apple-touch-icon-120x120.png')
+    link(rel='apple-touch-icon-precomposed', sizes='76x76', href='/assets/img/favicon/apple-touch-icon-76x76.png')
+    link(rel='apple-touch-icon-precomposed', sizes='152x152', href='/assets/img/favicon/apple-touch-icon-152x152.png')
+    link(rel='icon', type='image/png', href='/assets/img/favicon/favicon-196x196.png', sizes='196x196')
+    link(rel='icon', type='image/png', href='/assets/img/favicon/favicon-96x96.png', sizes='96x96')
+    link(rel='icon', type='image/png', href='/assets/img/favicon/favicon-32x32.png', sizes='32x32')
+    link(rel='icon', type='image/png', href='/assets/img/favicon/favicon-16x16.png', sizes='16x16')
+    link(rel='icon', type='image/png', href='/assets/img/favicon/favicon-128.png', sizes='128x128')
+    meta(name='application-name', content='UX-King | Webdesign Agentur aus Berlin')
+    meta(name='msapplication-TileColor', content='#232121')
+    meta(name='msapplication-TileImage', content='/assets/img/favicon/mstile-144x144.png')
+    meta(name='msapplication-square70x70logo', content='/assets/img/favicon/mstile-70x70.png')
+    meta(name='msapplication-square150x150logo', content='/assets/img/favicon/mstile-150x150.png')
+    meta(name='msapplication-wide310x150logo', content='/assets/img/favicon/mstile-310x150.png')
+    meta(name='msapplication-square310x310logo', content='/assets/img/favicon/mstile-310x310.png')
+    link(rel='stylesheet', type='text/css', href='./files/app.css')
+  body.page-home
+    #header(style='position: fixed; top: 0px; left: 0px; right: 0px; overflow: hidden; height: 75px;')
+      .midnightHeader.default(style='bottom: 0px; position: absolute; overflow: hidden; top: 0px; left: 0px; right: 0px; transform: translateY(110%) translateZ(0px);')
+        .midnightInner(style='position: absolute; overflow: auto; top: 0px; left: 0px; right: 0px; bottom: 0px; transform: translateY(-110%) translateZ(0px);')
+          .logo
+            h3.ux-king
+              a(href='http://ux-king.com/', title='Webdesign Agentur UX King') UX-King
+          .work
+            a.toggle-menu(href='http://ux-king.com/#', title='Webdesign Agentur UX King')
+              span.ux-king-burger
+                span.before
+                span.middle
+                span.after
+      .midnightHeader.blue(style='bottom: 0px; position: absolute; overflow: hidden; top: 0px; left: 0px; right: 0px; transform: translateZ(0px);')
+        .midnightInner(style='position: absolute; overflow: auto; top: 0px; left: 0px; right: 0px; bottom: 0px; transform: translateZ(0px);')
+          .logo
+            h3.ux-king
+              a(href='http://ux-king.com/', title='Webdesign Agentur UX King') UX-King
+          .work
+            a.toggle-menu(href='http://ux-king.com/#', title='Webdesign Agentur UX King')
+              span.ux-king-burger
+                span.before
+                span.middle
+                span.after
+    #hero
+      .mask
+        h1.memo
+          | Webdesign Agentur aus Berlin
+          span .
+        .mouse.scroll-link(go-to='.we-do')
+          span
+    .ux-king-menu
+      a.toggle-menu(href='http://ux-king.com/#', title='Webdesign Agentur UX King')
+        span.ux-king-burger
+          span.before
+          span.middle
+          span.after
+      .memo
+        our NEW SITE IS COMING SOON. CHECK OUT OUR WORK ON 
+        a(href='http://dribbble.com/ux-king', target='_blank', title='UX King on Dribbble') DRIBBBLE
+        |  AND 
+        a(href='mailto:info@creativeda.sh', title='Email us!') EMAIL US
+        |         TO GET IN TOUCH.
+    .section.spacer
+    #page
+      .page-container
+        #map(style='position: absolute; top: 0; left: 0; z-index: 100000')
+          .layer(data-midnight='blue', style='height: 3114px;')
+          .layer(data-midnight='default', style='height: 1581px;')
+          .layer(data-midnight='blue', style='height: 1239px;')
+          .layer(data-midnight='default', style='height: 911px;')
+          .layer(data-midnight='blue', style='height: 1428px;')
+          .layer(data-midnight='blue')
+        .scrollable-spacer(style='height: 3114px;')
+        .section.scrollable.we-do(style='z-index: 1;')
+          .fixed
+          .section-header
+            h3.section-title What We Do
+          .section-content
+            .row
+              .content
+                .wrapper
+                  h2.title UX Consulting
+                  p.words
+                    | Um ein Projekt zum Erfolg zu verhelfen, müssen wir es haargenau kennen. Es ist daher wichtig, ein intensives persönliches Gespräch mit dem Kunden zu führen, um alle Bedürfnisse und Probleme zu ermitteln. Wir bieten zudem umfangreiche, praxisorientierte Beratungen und Workshops an, um gemeinsam die beste UX Strategie zu erarbeiten.
+              .graphic(style='background-image: url(https://s3.amazonaws.com/deathtostock/photos/files/000/000/526/large/IMG_9867.jpg?1421725638)')
+            .row.alt
+              .content
+                .wrapper
+                  h2.title UX Conception
+                  p.words
+                    | Wir sind auf motivierende und hoch funktionale UX Konzepte spezialisiert. Vom erstellen von Personas und User Stories, über Sitemaps und Wireframes zu detaillierten Prototypen, bieten wir alles an, um das perfekte UX Konzept zu erschaffen. Deine Kunden werden es lieben!
+              .graphic(style='background-image: url(https://s3.amazonaws.com/deathtostock/photos/files/000/000/843/large/DeathtoStock_Neighbors3.jpg?1426522802)')
+            .row
+              .content
+                .wrapper
+                  h2.title UX Testing
+                  p.words
+                    | Trotz unserer jahrelangen Erfahrung im UX Bereich, können auch wir nicht immer erahnen, was die User am besten finden. Daher ist es wichtig, dass jedes UX Konzept an der Zielgruppe getestet wird. Es geht von einem Clickdummy-Test im kleinen Rahmen, bis zu automatischen Multivarianten- und A/B Tests mit tausenden von Testpersonen.
+              .graphic(style='background-image: url(https://s3.amazonaws.com/deathtostock/photos/files/000/000/850/large/DeathtoStock_Neighbors10.jpg?1426523985)')
+        .scrollable-spacer(style='height: 1581px;')
+        .section.scrollable.section-blue.how-we(style='z-index: 2;')
+          .section-header
+            h3.section-title How We Do It
+          .section-content
+            .cell.first
+              .wrapper
+                .card
+                  .graphic.discovery
+                .content
+                  h2.title Discovery
+                  p.words
+                    | Nullam quis risus eget urna mollis ornare vel eu leo. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam id dolor id nibh ultricies vehicula ut id elit.
+            .cell.second
+              .wrapper
+                .card
+                  .graphic.branding
+                .content
+                  h2.title Wireframing
+                  p.words
+                    | Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur. Sed posuere consectetur est at lobortis.
+            .cell.third
+              .wrapper
+                .card
+                  .graphic.ux-design
+                .content
+                  h2.title Prototyping
+                  p.words
+                    | Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum.
+            .cell.first
+              .wrapper
+                .card
+                  .graphic.prototyping
+                .content
+                  h2.title User Testing
+                  p.words
+                    | Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur blandit tempus porttitor.
+            .cell.second
+              .wrapper
+                .card
+                  .graphic.user-testing
+                .content
+                  h2.title UI Design
+                  p.words
+                    | Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Curabitur blandit tempus porttitor. Nulla vitae elit libero, a pharetra augue.
+            .cell.third
+              .wrapper
+                .card
+                  .graphic.uidesign
+                .content
+                  h2.title Interaction Design
+                  p.words
+                    | Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas faucibus mollis interdum. Donec id elit non mi porta gravida at eget metus.
+        .scrollable-spacer(style='height: 1239px;')
+        .section.scrollable.team(style='z-index: 3;')
+          .section-header
+            h3.section-title The Team
+          .section-content
+            .cell.first
+              .wrapper
+                .photo(style='background-image: url(http://www.munum.de/img/chris-lueders.png)')
+                .content
+                  span.name Chris L&uumlders
+                  span.role Founder & CEO, Designer
+            .cell.second
+              .wrapper
+                .photo(style='background-image: url(https://avatars.slack-edge.com/2016-02-05/20439659969_98d8b9091f69a8ad0e08_192.jpg)')
+                .content
+                  span.name Thilo Becker
+                  span.role Co-Founder, Designer
+            .cell.third
+              .wrapper
+                .photo(style='background-image: url(https://scontent.ftxl1-1.fna.fbcdn.net/t31.0-8/478871_10150641005861879_1163106987_o.jpg)')
+                .content
+                  span.name Greta Mehl
+                  span.role Backoffice
+        .scrollable-spacer(style='height: 5px;')
+        .section.scrollable.clients(data-midnight='blue', style='z-index: 5;')
+          .section-header
+            h3.section-title Our Clients
+          .section-content
+            .cell.first
+              .wrapper
+                .photo.crosslend(style='background-image: url(./assets/img/crosslend.png)')
+            .cell.second
+              .wrapper
+                .photo.zalando(style='background-image: url(./assets/img/zalando.png)')
+            .cell.third
+              .wrapper
+                .photo.scook(style='background-image: url(./assets/img/scook.png)')
+            .cell.first
+              .wrapper
+                .photo.auto1(style='background-image: url(./assets/img/auto1.png)')
+            .cell.second
+              .wrapper
+                .photo.studienkreis(style='background-image: url(./assets/img/studienkreis.png)')
+            .cell.third
+              .wrapper
+                .photo.mcmakler(style='background-image: url(./assets/img/mcmakler.png)')
+            .work-with
+              h5.red-period Jetzt konstenloses Beratungsgespr&auml;ch einlösen
+              a.contact(href='mailto:info@ux-king.com', title='Contact us') 
+            .footer-bar
+              .section-content
+                .cell.first
+                  a(href='http://ux-king.com/impressum/' , title='Impressum') Impressum
+                .cell.second
+                  .address
+                    p(style='margin: 15px 0 0 0') (0 151) 65 19 63 28
+                    p Sch&uuml;tzenstraße 8, 10117 Berlin
+                .cell.third
+                    a(href='http://facebook.com/ux-king', title='UX-King at facebook', target='_blank', class='facebook') facebook
+                    a(href='http://dribbble.com/ux-king', title='Our latest work at dribbble', target='_blank', class='dribbble') dribbble
+                    a(href='http://twitter.com/ux-king', title='News and Informations about UX Topics', target='_blank', class='twitter') twitter
+                    a(href='http://instagram.com/ux-king', title='UX-King at Instagram', target='_blank', class='instagram') instagram
+                    a(href='https://plus.google.com/+MunumDe', title='UX-King at google+', target='_blank', class='google') google
+    script(type='text/javascript', src='./files/jquery-3.1.0.min.js')
+    script(type='text/javascript', src='./files/main.js')

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(1.000000, 1.000000)">
+            <path d="M23,19 C23,21.209 21.209,23 19,23 L4,23 C1.791,23 0,21.209 0,19 L0,4 C0,1.791 1.791,0 4,0 L19,0 C21.209,0 23,1.791 23,4 L23,19 L23,19 Z" id="Stroke-231" stroke="#FFFFFF" stroke-linejoin="round"></path>
+            <path d="M18,11.5 C18,15.0903636 15.0891818,18 11.5,18 C7.91081818,18 5,15.0903636 5,11.5 C5,7.90963636 7.91081818,5 11.5,5 C15.0891818,5 18,7.90963636 18,11.5 L18,11.5 Z" id="Stroke-234" stroke="#FFFFFF" stroke-linejoin="round"></path>
+            <path d="M20,4 C20,4.82854545 19.3282727,5.5 18.5,5.5 C17.6717273,5.5 17,4.82854545 17,4 C17,3.17145455 17.6717273,2.5 18.5,2.5 C19.3282727,2.5 20,3.17145455 20,4 L20,4 Z" id="Stroke-234" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>
