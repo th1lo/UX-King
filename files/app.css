@@ -432,7 +432,7 @@ h2 {
     float: left;
     width: 40px;
     height: 40px;
-    background: url("http://www.ux-king.com.s3-website.eu-central-1.amazonaws.com/assets/ux-king-light.png") center center no-repeat;
+    background: url("http://www.ux-king.com.s3-website.eu-central-1.amazonaws.com/assets/img/ux-king-light.png") center center no-repeat;
     background-size: 40px 40px; }
     #header .ux-king a {
       display: block;
@@ -454,7 +454,7 @@ h2 {
     top: 0;
     left: 0; }
     #header .midnightHeader.blue .ux-king {
-      background-image: url("http://www.ux-king.com.s3-website.eu-central-1.amazonaws.com/assets/ux-king-dark.png"); }
+      background-image: url("http://www.ux-king.com.s3-website.eu-central-1.amazonaws.com/assets/img/ux-king-dark.png"); }
     #header .midnightHeader.blue .ux-king-burger span {
       background: #303236; }
   @media only screen and (max-width: 763px) {
