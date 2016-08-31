@@ -612,25 +612,6 @@ h2 {
       .ux-king-menu .memo > a:hover {
         color: #E57272;
         border-color: #E57272; }
-    .ux-king-menu .memo .socials {
-      display: block;
-      padding: 40px 0 0 0;
-      overflow: hidden; }
-      .ux-king-menu .memo .socials a {
-        display: block;
-        margin: 0 20px 0 0;
-        float: left;
-        width: 36px;
-        height: 36px;
-        border-radius: 50%;
-        background: url("//creative-dash.s3.amazonaws.com/assets/global/facebook.png") center center no-repeat;
-        background-size: 36px 36px; }
-        .ux-king-menu .memo .socials a:hover {
-          opacity: 0.6; }
-        .ux-king-menu .memo .socials a.twitter {
-          background-image: url("//creative-dash.s3.amazonaws.com/assets/global/twitter.png"); }
-        .ux-king-menu .memo .socials a.instagram {
-          background-image: url("//creative-dash.s3.amazonaws.com/assets/global/instagram.png"); }
   .ux-king-menu .toggle-menu {
     position: absolute;
     top: 42px;
@@ -966,7 +947,7 @@ h2 {
         background-repeat: no-repeat;
         background-position: center center; }
         .page-about .how-we .cell .card .graphic.ux-design, .page-home .how-we .cell .card .graphic.ux-design {
-          background-image: url("http://creative-dash.s3.amazonaws.com/assets/about/process/ux-design.png"); }
+          background-image: url("./assets/img/icn_discovery.svg"); }
         .page-about .how-we .cell .card .graphic.user-testing, .page-home .how-we .cell .card .graphic.user-testing {
           background-image: url("http://creative-dash.s3.amazonaws.com/assets/about/process/user-testing.png"); }
         .page-about .how-we .cell .card .graphic.uidesign, .page-home .how-we .cell .card .graphic.uidesign {
