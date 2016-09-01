@@ -16,6 +16,6 @@ ExpiresDefault "access 1 month"
 ## EXPIRES CACHING ##
 
 # 1 Month for most static assets
-<filesMatch ".(css|jpg|jpeg|png|gif|js|ico)$">
+<filesMatch ".(css|jpg|jpeg|png|gif|js|ico|svg)$">
 Header set Cache-Control "max-age=2592000, public"
 </filesMatch>
