@@ -946,24 +946,18 @@ h2 {
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center center; }
-        .page-about .how-we .cell .card .graphic.ux-design, .page-home .how-we .cell .card .graphic.ux-design {
-          background-image: url("../assets/img/icn_discovery.svg"); }
         .page-about .how-we .cell .card .graphic.user-testing, .page-home .how-we .cell .card .graphic.user-testing {
-          background-image: url("http://creative-dash.s3.amazonaws.com/assets/about/process/user-testing.png"); }
-        .page-about .how-we .cell .card .graphic.uidesign, .page-home .how-we .cell .card .graphic.uidesign {
-          background-image: url("http://creative-dash.s3.amazonaws.com/assets/about/process/uidesign.png"); }
-        .page-about .how-we .cell .card .graphic.support, .page-home .how-we .cell .card .graphic.support {
-          background-image: url("http://creative-dash.s3.amazonaws.com/assets/about/process/support.png"); }
+          background-image: url("../assets/img/icn_user-testing.svg"); }
+        .page-about .how-we .cell .card .graphic.ui-design, .page-home .how-we .cell .card .graphic.ui-design {
+          background-image: url("../assets/img/icn_ui-design.svg"); }
         .page-about .how-we .cell .card .graphic.prototyping, .page-home .how-we .cell .card .graphic.prototyping {
-          background-image: url("http://creative-dash.s3.amazonaws.com/assets/about/process/prototyping.png"); }
-        .page-about .how-we .cell .card .graphic.interaction, .page-home .how-we .cell .card .graphic.interaction {
-          background-image: url("http://creative-dash.s3.amazonaws.com/assets/about/process/interaction.png"); }
+          background-image: url("../assets/img/icn_prototyping.svg"); }
+        .page-about .how-we .cell .card .graphic.interaction-design, .page-home .how-we .cell .card .graphic.interaction-design {
+          background-image: url("../assets/img/icn_interaction-design.svg"); }
         .page-about .how-we .cell .card .graphic.discovery, .page-home .how-we .cell .card .graphic.discovery {
-          background-image: url("http://creative-dash.s3.amazonaws.com/assets/about/process/discovery.png"); }
-        .page-about .how-we .cell .card .graphic.dev, .page-home .how-we .cell .card .graphic.dev {
-          background-image: url("http://creative-dash.s3.amazonaws.com/assets/about/process/dev.png"); }
-        .page-about .how-we .cell .card .graphic.branding, .page-home .how-we .cell .card .graphic.branding {
-          background-image: url("http://creative-dash.s3.amazonaws.com/assets/about/process/branding.png"); }
+          background-image: url("../assets/img/icn_discovery.svg"); }
+        .page-about .how-we .cell .card .graphic.wireframing, .page-home .how-we .cell .card .graphic.wireframing{
+          background-image: url("../assets/img/icn_wireframing.svg"); }
   @media only screen and (min-width: 764px) and (max-width: 1023px) {
     .page-about .how-we .cell, .page-home .how-we .cell {
       width: 50%; }
