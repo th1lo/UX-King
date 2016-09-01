@@ -947,7 +947,7 @@ h2 {
         background-repeat: no-repeat;
         background-position: center center; }
         .page-about .how-we .cell .card .graphic.ux-design, .page-home .how-we .cell .card .graphic.ux-design {
-          background-image: url("./assets/img/icn_discovery.svg"); }
+          background-image: url("../assets/img/icn_discovery.svg"); }
         .page-about .how-we .cell .card .graphic.user-testing, .page-home .how-we .cell .card .graphic.user-testing {
           background-image: url("http://creative-dash.s3.amazonaws.com/assets/about/process/user-testing.png"); }
         .page-about .how-we .cell .card .graphic.uidesign, .page-home .how-we .cell .card .graphic.uidesign {
