@@ -432,7 +432,7 @@ h2 {
     float: left;
     width: 40px;
     height: 40px;
-    background: url("http://ux-king.com/assets/img/ux-king-light.png") center center no-repeat;
+    background: url("h../assets/img/ux-king-light.png") center center no-repeat;
     background-size: 40px 40px; }
     #header .ux-king a {
       display: block;
@@ -454,7 +454,7 @@ h2 {
     top: 0;
     left: 0; }
     #header .midnightHeader.blue .ux-king {
-      background-image: url("http://ux-king.com/assets/img/ux-king-dark.png"); }
+      background-image: url("../assets/img/ux-king-dark.png"); }
     #header .midnightHeader.blue .ux-king-burger span {
       background: #303236; }
   @media only screen and (max-width: 763px) {
@@ -484,7 +484,7 @@ h2 {
   z-index: 1;
   width: 100%;
   height: 100%;
-  background: url("https://s3.amazonaws.com/deathtostock/photos/files/000/000/797/large/DeathtoStock_CreativeSpace1.jpg?1424103908") center center no-repeat;
+  background: url("../assets/img/herobg.jpg") center center no-repeat;
   background-size: cover; }
   #hero .memo {
     position: absolute;
@@ -1121,7 +1121,7 @@ h2 {
       width: 100px;
       height: 100px;
       border-radius: 50%;
-      background: url("http://creative-dash.s3.amazonaws.com/assets/about/bubble.png") center center no-repeat #FEB901;
+      background: url("../assets/img/bubble.png") center center no-repeat #FEB901;
       background-size: 26px 26px; }
       .page-about .clients .work-with a:hover, .page-home .clients .work-with a:hover {
         background-color: #FEB102; }
