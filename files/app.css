@@ -432,7 +432,7 @@ h2 {
     float: left;
     width: 40px;
     height: 40px;
-    background: url("h../assets/img/ux-king-light.png") center center no-repeat;
+    background: url("../assets/img/ux-king-light.png") center center no-repeat;
     background-size: 40px 40px; }
     #header .ux-king a {
       display: block;
