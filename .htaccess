@@ -1,7 +1,8 @@
-Options +FollowSymLinks
-RewriteEngine On
+RewriteEngine on
+
 RewriteCond %{HTTPS} off
-RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+RewriteCond www.%{HTTP_HOST} ^(?:www\.)?(www\..+)$ [NC]
+RewriteRule ^ https://%1%{REQUEST_URI} [NE,L,R]
 
 ## EXPIRES CACHING ##
 <IfModule mod_expires.c>
