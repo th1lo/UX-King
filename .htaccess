@@ -1,8 +1,8 @@
-RewriteEngine on
+RewriteEngine On
 
-RewriteCond %{HTTPS} off
-RewriteCond www.%{HTTP_HOST} ^(?:www\.)?(www\..+)$ [NC]
-RewriteRule ^ https://%1%{REQUEST_URI} [NE,L,R]
+RewriteCond %{HTTP_HOST} !^meinedomain\.de$ [NC,OR]
+RewriteCond %{HTTPS} =off
+RewriteRule ^(.*)$ https://meinedomain.de/$1 [R=301,L]
 
 ## EXPIRES CACHING ##
 <IfModule mod_expires.c>
