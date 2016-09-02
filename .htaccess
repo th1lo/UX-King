@@ -1,7 +1,9 @@
-Options +FollowSymLinks
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^ux-king.com [NC]
-RewriteRule ^(.*)$ https://ux-king.com/$1 [L,R=301]
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.ux-king.com/$1 [R,L]
 
 ## EXPIRES CACHING ##
 <IfModule mod_expires.c>
