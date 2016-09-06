@@ -592,7 +592,7 @@ h2 {
   transition: left 0ms ease 400ms, opacity 400ms ease; }
   @media only screen and (max-width: 763px) {
     .ux-king-menu .memo {
-      margin: 50px 0;
+      top: 58%;
     }
   }
   .ux-king-menu .memo {
