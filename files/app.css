@@ -642,7 +642,6 @@ h2 {
     .memo .contacts {
       display: inline-block;
       width: 300px;
-      margin: 0 auto 25px auto;
     }
 
     .memo .contacts a {
