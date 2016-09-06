@@ -623,7 +623,7 @@ h2 {
       font-weight: 200;
     }
     .memo .legal {
-      overflow-y: scroll;
+      overflow-y: auto;
       height: 500px;
       width: 100%;
       text-align: left;
