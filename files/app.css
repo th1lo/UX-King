@@ -109,7 +109,7 @@ dfn {
 
 /**
  * Address variable `h1` font-size and margin within `section` and `article`
- * contexts in Firefox 4+, Safari, 
+ * contexts in Firefox 4+, Safari,
  */
 h1 {
   font-size: 2em;
@@ -380,7 +380,7 @@ p, i, b, strong, em {
 body {
   font-size: 15px;
   line-height: 24px;
-  font-family: "Lato", sans-serif;
+  font-family: "Futura PT", sans-serif;
   font-weight: 400;
   color: #454545;
   background: #f8f8f8; }
@@ -591,27 +591,60 @@ h2 {
   background: #31363B;
   transition: left 0ms ease 400ms, opacity 400ms ease; }
   .ux-king-menu .memo {
+    text-align: center;
     position: absolute;
     top: 50%;
     left: 50%;
     width: 80%;
     max-width: 615px;
-    font-size: 34px;
+    font-size: 2em;
     line-height: 1.4;
     letter-spacing: 0.025em;
-    font-weight: 900;
+    font-weight: 400;
     color: #f8f8f8;
-    text-transform: uppercase;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%); }
-    .ux-king-menu .memo > a {
-      color: #FFF;
-      font-weight: 900;
-      transition: border-color 150ms ease, color 150ms ease;
-      border-bottom: 4px solid #FFF; }
-      .ux-king-menu .memo > a:hover {
-        color: #E57272;
-        border-color: #E57272; }
+    .memo div {
+      margin: 50px auto 25px auto;
+      color: rgba(255, 255, 255, 0.5);
+    }
+    .memo .contacts {
+      display: inline-block;
+      width: 300px;
+      margin: 0 auto 25px auto;
+    }
+
+    .memo .contacts a {
+      text-indent: 75px;
+      display: block;
+      text-align: left;
+      font-size: 1em;
+      color: #fff;
+      transition: all 0.2s ease;
+      line-height: 2;
+    }
+
+    .memo .contacts a:first-child {
+      background: url("../assets/img/headset.svg") left center / 42px 42px no-repeat;
+    }
+
+    .memo .contacts a:last-child {
+      background: url("../assets/img/mail.svg") left center / 42px 42px no-repeat;
+    }
+
+    .memo .contacts a:hover {
+      opacity: 1;
+    }
+
+    .socials a {
+      opacity: 0.3;
+      margin: 50px 15px 0 0;
+      display: inline-block;
+      transition: all 0.2s ease;
+    }
+    .socials > a:hover {
+      opacity: 0.6;
+    }
   .ux-king-menu .toggle-menu {
     position: absolute;
     top: 42px;
@@ -1133,102 +1166,56 @@ h2 {
     height: 70px;
     color: #FFF;
     line-height: 70px;
-    text-align: left;
+    text-align: center;
     background: #303236;
     transition: background-color 150ms ease; }
     .page-about .clients .footer-bar > a, .page-home .clients .footer-bar > a {
       width: 100%;
       height: 100%; }
-    .page-about .clients .footer-bar, .page-home .clients .footer-bar .cell {
-      margin: 0;}
-    .footer-bar .cell.third {
-      text-align: right;}
-    .footer-bar .cell.second{
-      max-height: 70px;
-      text-align: center;}
     .footer-bar .section-content {
       max-width: 1074px !important;}
-    .footer-bar .cell.first > a {
+    .footer-bar a {
       color: #57616C;
-    }
-    .footer-bar .cell.second > .address {
-      display: inline-block;
-    }
-    .footer-bar .cell.second > .address > p {
-      color: #57616C;
-      line-height: 100%;
-    }
-    .footer-bar .cell.second > .address > p:first-child {
-      color: #fff;
-      line-height: 120%;
-      font-weight: 100;
-    }
-    .footer-bar .cell.second > .address > p:last-child {
-      line-height: 120%;
-    }
-    .footer-bar .cell.second > a.googlemaps {
-      display: inline-block;
-      text-align: center;
-      text-indent: -9999px;
-      width: 24px;
-      height: 24px;
-      line-height: 100%;
-      background: url("../assets/img/address.svg") center center no-repeat;
-      background-size: 13px 24px;
-    }
-    .footer-bar .cell.third > a {
-      opacity: 0.3;
-      margin: 25px 0 0 15px;
-      display: inline-block;
-      transition: all 0.5s ease;
-    }
-    .footer-bar .cell.third > a:hover {
-      opacity: 1;
     }
 
-    .footer-bar .cell.first > a:hover {
+    .footer-bar a:hover {
       color: #FEB102;
       transition: all 0.5s ease;
     }
-    .footer-bar .cell.third > a.facebook {
+    .socials a.facebook {
       text-align: center;
       text-indent: -9999px;
-      width: 24px;
-      height: 24px;
-      background: url("../assets/img/facebook.svg") center center no-repeat;
-      background-size: 13px 24px;
+      width: 42px;
+      height: 42px;
+      background: url("../assets/img/facebook.svg") center center / 42px 42px no-repeat;
     }
-    .footer-bar .cell.third > a.dribbble {
+    .socials a.linkedin {
       text-align: center;
       text-indent: -9999px;
-      width: 24px;
-      height: 24px;
-      background: url("../assets/img/dribbble.svg") center center no-repeat;
-      background-size: 24px 24px;
+      width: 42px;
+      height: 42px;
+      background: url("../assets/img/linked-in.svg") center center / 42px 42px no-repeat;
     }
-    .footer-bar .cell.third > a.twitter {
+    .socials a.twitter {
       text-align: center;
       text-indent: -9999px;
-      width: 24px;
-      height: 24px;
-      background: url("../assets/img/twitter.svg") center center no-repeat;
-      background-size: 24px 24px;
+      width: 42px;
+      height: 42px;
+      background: url("../assets/img/twitter.svg") center center / 42px 42px no-repeat;
     }
-    .footer-bar .cell.third > a.instagram {
+    .socials a.xing {
       text-align: center;
       text-indent: -9999px;
-      width: 24px;
-      height: 24px;
-      background: url("../assets/img/instagram.svg") center center no-repeat;
-      background-size: 24px 24px;
+      width: 42px;
+      height: 42px;
+      background: url("../assets/img/xing.svg") center center / 42px 42px no-repeat;
     }
-    .footer-bar .cell.third > a.google {
+    .socials a.google {
       text-align: center;
       text-indent: -9999px;
-      width: 24px;
-      height: 24px;
-      background: url("../assets/img/google.svg") center center no-repeat;
-      background-size: 24px 24px;
+      width: 42px;
+      height: 42px;
+      background: url("../assets/img/google.svg") center center / 42px 42px no-repeat;
     }
   @media only screen and (max-width: 763px) {
     .page-about .clients, .page-home .clients {

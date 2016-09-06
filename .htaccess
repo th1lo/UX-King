@@ -1,5 +1,4 @@
 RewriteEngine On
-
 RewriteCond %{HTTP_HOST} !^ux-king\.com$ [NC,OR]
 RewriteCond %{HTTPS} =off
 RewriteRule ^(.*)$ https:/ux-king.com/$1 [R=301,L]
