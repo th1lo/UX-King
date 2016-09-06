@@ -608,6 +608,29 @@ h2 {
       margin: 50px auto 25px auto;
       color: rgba(255, 255, 255, 0.5);
     }
+    .memo h1 {
+      text-align: left;
+      font-size: 1em;
+      line-height: 1.4;
+      letter-spacing: 0.025em;
+      font-weight: 400;
+      color: #f8f8f8;
+    }
+    .memo p {
+      text-align: left;
+      font-size: 15px;
+      line-height: 24px;
+      font-weight: 200;
+    }
+    .memo .legal {
+      overflow-y: scroll;
+      height: 500px;
+      width: 100%;
+      text-align: left;
+      font-size: 15px;
+      line-height: 24px;
+      font-weight: 200;
+    }
     .memo .contacts {
       display: inline-block;
       width: 300px;
