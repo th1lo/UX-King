@@ -593,6 +593,7 @@ h2 {
   @media only screen and (max-width: 763px) {
     .ux-king-menu .memo {
       top: 58% !important;
+      height: 95%;
     }
   }
   .ux-king-menu .memo {
