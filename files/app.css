@@ -592,8 +592,9 @@ h2 {
   transition: left 0ms ease 400ms, opacity 400ms ease; }
   @media only screen and (max-width: 763px) {
     .ux-king-menu .memo {
-      top: 58% !important;
+      top: 50% !important;
       height: 95%;
+      margin-bottom: 30px;
     }
   }
   .ux-king-menu .memo {
@@ -629,8 +630,9 @@ h2 {
       font-weight: 200;
     }
     .memo .legal {
+      margin: 25px 0 0 0;
       overflow-y: auto;
-      height: 500px;
+      height: 60%;
       width: 100%;
       text-align: left;
       font-size: 15px;
