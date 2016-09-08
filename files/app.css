@@ -761,25 +761,31 @@ h2 {
 /**
  * ux-king - Buttons
  */
-.btn {
-  display: inline-block;
-  padding: 0 22px;
-  color: #FFF;
-  font-size: 13px;
-  line-height: 40px;
-  text-align: center;
-  font-weight: 900;
-  text-transform: uppercase;
-  background: #454545; }
-  .btn.btn-gray {
-    background-color: #454545; }
-    .btn.btn-gray:hover {
-      color: #FEB901; }
-  .btn.btn-white {
-    color: #454545;
-    background-color: #f8f8f8; }
-    .btn.btn-white:hover {
-      color: #FEB901; }
+ .btn {
+   display: inline-block;
+   height: 3em;
+   width: 400px;
+   background-color: #FEB901;
+   margin: 2em auto;
+   box-shadow: 0 25px 40px -20px #FE9201;
+   text-align: center;
+   padding-top: 27px;
+   color: #ffffff;
+   line-height: 11px;
+   font-size: 1.4em;
+   box-sizing: border-box;
+   cursor: pointer;
+   transition: box-shadow .4s;
+ }
+ .btn:hover {
+   box-shadow: 0 20px 40px -20px #FE7901;
+   color: #FFF;
+
+ }
+ .btn.click {
+   transition: all .2s;
+   box-shadow: 0 5px 40px -20px #546782;
+ }
 
 /**
  * ux-king - Section
@@ -1170,16 +1176,6 @@ h2 {
       font-size: 20px;
       font-weight: 900;
       text-transform: uppercase; }
-    .page-about .clients .work-with a, .page-home .clients .work-with a {
-      display: block;
-      margin: 0 auto;
-      width: 100px;
-      height: 100px;
-      border-radius: 50%;
-      background: url("../assets/img/bubble.png") center center no-repeat #FEB901;
-      background-size: 26px 26px; }
-      .page-about .clients .work-with a:hover, .page-home .clients .work-with a:hover {
-        background-color: #FEB102; }
   .page-about .clients .footer-bar, .page-home .clients .footer-bar {
     position: absolute;
     bottom: 0;
