@@ -32,6 +32,34 @@ html(lang="de")
     meta(name='msapplication-wide310x150logo', content='../assets/img/favicon/mstile-310x150.png')
     meta(name='msapplication-square310x310logo', content='../assets/img/favicon/mstile-310x310.png')
     link(rel='stylesheet', type='text/css', href='../files/app.min.css')
+    style.
+      @media only screen and (max-width: 1800px) {
+        .memo {
+          top: 50px !important;
+          -webkit-transform: translate(-50%, 0%) !important;
+          transform: translate(-50%, 0%) !important;
+        }
+      }
+      @media only screen and (max-width: 1200px) {
+        .memo {
+          top: 50px !important;
+          height: 95%;
+          margin-bottom: 30px;
+        }
+      }
+      .memo {
+        max-width: none !important;
+        width: 90% !important;
+        max-height:
+      }
+      .ux-king-menu {
+        overflow-y: auto;
+        height: 100%;
+      }
+      .memo .legal {
+        height: 100%;
+        margin-bottom: 200px;
+      }
   body.menu-open
     .ux-king-menu
       a.toggle-menu(href='http://www.ux-king.com/', title='Close Imprint')
@@ -39,7 +67,7 @@ html(lang="de")
           span.before
           span.middle
           span.after
-      .memo(style='max-width: none; width: 90%;')
+      .memo
         h1 Impressum
         p munum GmbH
         p Alt-Moabit 58

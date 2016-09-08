@@ -590,21 +590,6 @@ h2 {
   height: 100%;
   background: #31363B;
   transition: left 0ms ease 400ms, opacity 400ms ease; }
-  @media only screen and (max-width: 763px) {
-    .ux-king-menu .memo {
-      top: 50% !important;
-      height: 95%;
-      margin-bottom: 30px;
-    }
-    .ux-king-menu .memo .legal {
-      height: 60%;
-    }
-  }
-  @media only screen and (max-width: 1600px) {
-    .ux-king-menu .memo {
-      top: 50% !important;
-    }
-  }
   .ux-king-menu .memo {
     text-align: center;
     position: absolute;
@@ -639,8 +624,6 @@ h2 {
     }
     .memo .legal {
       margin: 25px 0 0 0;
-      overflow-y: auto;
-      height: 40vw;
       width: 100%;
       text-align: left;
       font-size: 15px;
