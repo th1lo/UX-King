@@ -1,7 +1,6 @@
-RewriteEngine On
-RewriteCond %{HTTP_HOST} !^ux-king\.com$ [NC,OR]
-RewriteCond %{HTTPS} =off
-RewriteRule ^(.*)$ https://ux-king.com/$1 [R=301,L]
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
 
 ## EXPIRES CACHING ##
 <IfModule mod_expires.c>
