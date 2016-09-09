@@ -76,6 +76,29 @@ html(lang="de")
       ul > li > span {
         color: #454545;
       }
+      @media only screen and (max-width: 763px) {
+        .wrapper {
+          margin-bottom: 50px;
+        }
+        .content .wrapper {
+          padding: 30px 0 0 0 !important;
+        }
+        .row {
+          margin: 30px 0 0 0 !important;
+        }
+        
+        .section .list {
+          padding: 0;  
+        }
+          
+        .row:last-child {
+          margin: 30px 0 100px 0 !important;
+        }
+        
+        .footer-bar .info {
+          display: none;
+        }
+      }
   body.page-home
     #header(style='position: fixed; top: 0px; left: 0px; right: 0px; overflow: hidden; height: 75px;')
       .midnightHeader.default(style='bottom: 0px; position: absolute; overflow: hidden; top: 0px; left: 0px; right: 0px; transform: translateY(110%) translateZ(0px);')
@@ -133,27 +156,28 @@ html(lang="de")
         .scrollable-spacer(style='height: 3114px;')
         .section.scrollable.we-do(style='z-index: 1;')
           .fixed
-          .section-header(style='max-width: 880px; padding: 0 0 100px; text-align: left;')
+          .section-header(style='max-width: 880px; padding: 0; text-align: left;')
             h3.section-title Mit UX Testing viel Geld sparen
             p.intro
               | Die Abkürzung "UX" steht für User Experience und im Ganzen ist damit User Experience Design gemeint. Das Wort ist seit einiger Zeit im digitalen Business in aller Munde, aber nicht jeder kennt die genaue Bedeutung. Wir wagen den Versuch, den Begriff zu erklären.
-          .section-content(style='max-width: 880px;')
+          .section.list(style='max-width: 880px; margin: 0 auto;')
             .row
-              h2 Was genau ist UX Design also?
-              h4 UX Design besteht aus verschiedenen Disziplinen:
-              ul 
-                li 
-                  span Interaktionsdesign
-                li  
-                  span Wireframing & Prototyping
-                li  
-                  span Informationsarchitektur
-                li  
-                  span User Research
-                li  
-                  span Persona Szenarien
-              p 
-                | Im Gegensatz zum User Interface Design (UI), bezieht sich User Experience Design auf die Bereiche einer Website, Software oder App, die man optisch nicht SIEHT, sondern die Dinge die man ERLEBT. Ein simpler Vergleich mit einem Keks ,veranschaulicht den Unterschied: Wenn man einen Keks ansieht ist es UI (&auml;ußerliches Erscheinungsbild), wenn man ihn isst, ist es UX (Geschmack, Erleben, F&uuml;hlen).
+              .wrapper
+                h2 Was genau ist UX Design also?
+                h4 UX Design besteht aus verschiedenen Disziplinen:
+                ul 
+                  li 
+                    span Interaktionsdesign
+                  li  
+                    span Wireframing & Prototyping
+                  li  
+                    span Informationsarchitektur
+                  li  
+                    span User Research
+                  li  
+                    span Persona Szenarien
+                p 
+                  | Im Gegensatz zum User Interface Design (UI), bezieht sich User Experience Design auf die Bereiche einer Website, Software oder App, die man optisch nicht SIEHT, sondern die Dinge die man ERLEBT. Ein simpler Vergleich mit einem Keks ,veranschaulicht den Unterschied: Wenn man einen Keks ansieht ist es UI (&auml;ußerliches Erscheinungsbild), wenn man ihn isst, ist es UX (Geschmack, Erleben, F&uuml;hlen).
             .row
               .content
                 .wrapper(style='margin:0;')

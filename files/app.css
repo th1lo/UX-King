@@ -633,6 +633,7 @@ h2 {
     .memo .contacts {
       display: inline-block;
       width: 300px;
+      padding-left: 1.5vw;
     }
 
     .memo .contacts a {
@@ -704,6 +705,9 @@ h2 {
     .menu-open .ux-king-menu .link {
       height: 33.3333%; }
   @media only screen and (max-width: 763px) {
+    .memo div {
+      font-size: 0.8em;
+    }
     .ux-king-menu .toggle-menu {
       top: 20px;
       right: 21px; }
@@ -1236,10 +1240,19 @@ h2 {
       background: url("../assets/img/google.svg") center center / 42px 42px no-repeat;
     }
   @media only screen and (max-width: 763px) {
+    .socials a {
+      width: 36px !important;
+      height: 36px !important;
+      background-size: 36px 36px !important;
+      margin: 0 15px 0 0 !important;
+    }
+    .btn {
+      width: 100%;
+    }
     .page-about .clients, .page-home .clients {
       padding: 40px 10px 0 10px; }
     .page-about .clients .work-with, .page-home .clients .work-with {
-      padding: 60px 60px 150px; }
+      padding: 60px 0 150px 0; }
     .page-about .clients .footer-bar .stuff, .page-home .clients .footer-bar .stuff {
       display: none; }
     .page-about .clients .cell, .page-home .clients .cell {
