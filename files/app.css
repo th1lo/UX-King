@@ -6,8 +6,8 @@
  *    user zoom.
  */
 html {
-  font-family: sans-serif;
-  /* 1 */
+  font-family: "futura-pt", sans-serif;
+  /* 1 */ 
   -ms-text-size-adjust: 100%;
   /* 2 */
   -webkit-text-size-adjust: 100%;
@@ -380,7 +380,7 @@ p, i, b, strong, em {
 body {
   font-size: 15px;
   line-height: 24px;
-  font-family: "Futura PT", sans-serif;
+  font-family: "futura-pt", sans-serif;
   font-weight: 400;
   color: #454545;
   background: #f8f8f8; }
