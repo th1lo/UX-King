@@ -1176,7 +1176,7 @@ h2 {
     padding: 80px 0 120px 0;
     text-align: center; }
     .page-about .clients .work-with h5, .page-home .clients .work-with h5 {
-      margin: 0 auto 40px;
+      margin: 0 auto;
       font-size: 20px;
       font-weight: 900;
       text-transform: uppercase; }
