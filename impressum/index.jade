@@ -32,24 +32,9 @@ html(lang="de")
     meta(name='msapplication-wide310x150logo', content='../assets/img/favicon/mstile-310x150.png')
     meta(name='msapplication-square310x310logo', content='../assets/img/favicon/mstile-310x310.png')
     link(rel='stylesheet', type='text/css', href='../files/app.min.css')
-    script(type='text/javascript').
-      TypekitConfig = {
-      kitId: 'hjf4xtn',
-      scriptTimout: 200
-      };
-      (function() {
-      var tk = document.createElement('script');
-      tk.src = 'https://use.typekit.com/' + TypekitConfig.kitId + '.js';
-      tk.type = 'text/javascript';
-      tk.async = 'true';
-      tk.onload = tk.onreadystatechange = function() {
-      var rs = this.readyState;
-      if (rs && rs != 'complete' && rs != 'loaded') return;
-      try { Typekit.load(TypekitConfig); } catch (e) {}
-      };
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(tk, s);
-      })();
+    script(src='https://use.typekit.net/hjf4xtn.js')
+    script.
+      try{Typekit.load({ async: true });}catch(e){}
     style.
       .memo {
         top: 25px !important;
