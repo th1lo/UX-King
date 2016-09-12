@@ -34,6 +34,7 @@ html(lang="de")
     link(rel='stylesheet', type='text/css', href='../files/app.min.css')
     style.
       .footer-bar {
+        bottom: 0;
         background: rgba(48,50,54,0.95) !important;
       }
       .footer-bar .contact {
@@ -76,7 +77,31 @@ html(lang="de")
       ul > li > span {
         color: #454545;
       }
+      .work-with {
+        margin: 100px auto 0 auto;
+        text-align: center;
+      }
+      .work-with h5 {
+          text-align: center;
+          font-size: 20px;
+          font-weight: 900;
+          text-transform: uppercase;
+      }
+      @media only screen and (min-width: 764px) {
+        .footer-bar .contact {
+          display: none;
+        }
+        .mobile-imprint {
+          display: none;
+        }
+      }
       @media only screen and (max-width: 763px) {
+        .work-with {
+          display: none;
+        }
+        .footer-bar .contact {
+          display: inline;
+        }
         .section-title {
           font-size: 2em !important;
           text-align: left !important;
@@ -92,16 +117,20 @@ html(lang="de")
         }
         
         .section .list {
-          padding: 0;  
-        }
-          
+          padding: 0 !important;  
+        } 
         .row:last-child {
           margin: 30px 0 50px 0 !important;
           padding-bottom: 100px;
         }
-        
-        .footer-bar .info {
+        .footer-bar {
+          position: fixed !important;
+        }
+        .imprint {
           display: none;
+        }
+        .mobile-imprint {
+          margin: 120px 0
         }
       }
   body.page-home
@@ -128,7 +157,7 @@ html(lang="de")
                 span.before
                 span.middle
                 span.after
-    #hero(style='height: 33%; background-image: url(../assets/img/ux-bg.jpg);')
+    #hero(style='height: 15%; background-image: url(../assets/img/ux-bg.jpg);')
       .mask
         h1.memo
     .ux-king-menu
@@ -148,7 +177,7 @@ html(lang="de")
           a(href='http://xing.com/ux-king', title='UX King on Xing', target='_blank', class='xing') Xing
           a(href='http://twitter.com/ux-king', title='News and Informations about UX Topics', target='_blank', class='twitter') Twitter
           a(href='https://plus.google.com/+MunumDe', title='UX-King at google+', target='_blank', class='google') Google+
-    .section.spacer(style='height: 33%;')
+    .section.spacer(style='height: 15%;')
     #page
       .page-container
         #map(style='position: absolute; top: 0; left: 0; z-index: 100000')
@@ -165,7 +194,7 @@ html(lang="de")
             h3.section-title Mit UX Testing viel Geld sparen
             p.intro
               | Die Abkürzung "UX" steht für User Experience und im Ganzen ist damit User Experience Design gemeint. Das Wort ist seit einiger Zeit im digitalen Business in aller Munde, aber nicht jeder kennt die genaue Bedeutung. Wir wagen den Versuch, den Begriff zu erklären.
-          .section.list(style='max-width: 880px; margin: 0 auto;')
+          .section.list(style='max-width: 880px; margin: 0 auto; padding: 120px 0;')
             .row
               .wrapper
                 h2 Was genau ist UX Design also?
@@ -207,10 +236,16 @@ html(lang="de")
 
               p 
                 | Schreib uns einfach eine Nachricht, wenn wir Dein Interesse geweckt haben und wir besprechen gern, wie wir auch deinem Produkt ein großartiges UX Design verpassen können.
+          
+            .work-with
+              h5.red-period Kontaktieren uns, für ein kostenloses Erstgespr&auml;ch und Angebot
+              a.btn(href='mailto:projekt@ux-king.com', title='Contact us') Kostenlose Beratung anfordern
+          br
+          a(href='./impressum/' , title='Impressum', class='mobile-imprint', style='padding-bottom: 100px; color: #454545') Impressum
         .section.scrollable.clients(data-midnight='blue', style='z-index: 5; padding: 0;')
-            .footer-bar(style='position: fixed; bottom: 0;')
+            .footer-bar
               .section-content
-                  a.info(href='mailto:projekt@ux-king.de' , title='Beratungstermin vereinbaren') mehr &uuml;ber UX King
+                  a(href='./impressum/' , title='Impressum', class='imprint') Impressum
                   a.contact(href='mailto:projekt@ux-king.de' , title='Beratungstermin vereinbaren') Jetzt kostenlos beraten lassen!
     script(type='text/javascript', src='../files/main.js')
     script(src='../files/analytics.js')
