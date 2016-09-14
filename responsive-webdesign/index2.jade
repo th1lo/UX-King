@@ -1,4 +1,4 @@
-//output:index.html, pretty:false
+//output:index2.html, pretty:false
 doctype html
 html(lang="de")
   head
@@ -36,13 +36,7 @@ html(lang="de")
     script(src='https://use.typekit.net/hjf4xtn.js')
     script.
       try{Typekit.load({ async: true });}catch(e){}
-    style.
-      h2.title::first-letter {
-        color: #feb901;
-      }
-      h2.title:after {
-        content: '' !important;
-      }
+    
   body.page-home
     #header(style='position: fixed; top: 0px; left: 0px; right: 0px; overflow: hidden; height: 75px;')
       .midnightHeader.default(style='bottom: 0px; position: absolute; overflow: hidden; top: 0px; left: 0px; right: 0px; transform: translateY(110%) translateZ(0px);')
@@ -104,28 +98,20 @@ html(lang="de")
             h3.section-title 3 Fakten über Responsive Webdesign
             p.intro
               | Responsive Webdesign ist heutzutage wichter, als je zuvor. Warum erfahren Sie jetzt:
-          .section.list(style='max-width: 880px; margin: 0 auto;padding: 120px 0;')
+          .section.list(style='max-width: 880px; margin: 0 auto;')
+            img.contentimage(src='../assets/img/herobg.jpg', alt='Responsive Webdesign')
             .row
-              .content
-                .wrapper
-                  h2.title 1. Responsive Webdesign bestimmt Ihr Google Ranking
-                  p.words
-                    | Uor einiger Zeit hat Google beschlossen, Webseiten schlechter zu platzieren, wenn sie kein Responsive Design haben. Das ist heutzutage auch Praxis und demnach sollten Sie ihre Website mobil optimieren, wenn Sie von Ihren Kunden gefunden werden wollen.
-              .graphic(style='background-image: url(image.jpg)')
-            .row.alt
-              .content
-                .wrapper
-                  h2.title 2. Ihre User werden es Ihnen Danken
-                  p.words
-                    | Wer kennt es nicht: man geht auf seinem Handy auf eine Website und alles ist chaotisch und unübersichtlich. Genauso fühlen sich User auch, wenn sie auf Ihre Website gehen, wenn sie nicht mobile optimiert ist. Weniger Frust für den User, bedeutet mehr Umsatz für den Seitenbetreiber.
-              .graphic(style='background-image: url(image.jpg)')
+              h2 1. Responsive Webdesign bestimmt Ihr Google Ranking
+              p 
+                | Vor einiger Zeit hat Google beschlossen, Webseiten schlechter zu platzieren, wenn sie kein Responsive Design haben. Das ist heutzutage auch Praxis und demnach sollten Sie ihre Website mobil optimieren, wenn Sie von Ihren Kunden gefunden werden wollen.
             .row
-              .content
-                .wrapper
-                  h2.title 3. 63% der Deutschen brauchen Responsive Webdesign
-                  p.words
-                    | Statistiken belegen, dass über 63% der Deutschen das Mobile Netz benutzen. Sollte man diese Masse nicht mit der möglichst besten mobilen Erfahrung zufrieden stellen?
-              .graphic(style='background-image: url(./assets/img/testing.jpg)')
+              h2 2. Ihre User werden es Ihnen Danken
+              p 
+                | Wer kennt es nicht: man geht auf seinem Handy auf eine Website und alles ist chaotisch und unübersichtlich. Genauso fühlen sich User auch, wenn sie auf Ihre Website gehen, wenn sie nicht mobile optimiert ist. Weniger Frust für den User, bedeutet mehr Umsatz für den Seitenbetreiber.
+            .row
+              h2 3. 63% der Deutschen brauchen Responsive Webdesign
+              p 
+                | Statistiken belegen, dass über 63% der Deutschen das Mobile Netz benutzen. Sollte man diese Masse nicht mit der möglichst besten mobilen Erfahrung zufrieden stellen?
             .work-with
               h5.red-period 
                 | Kontaktieren Sie uns noch heute, für ein kostenloses Beratungsgespräch.
