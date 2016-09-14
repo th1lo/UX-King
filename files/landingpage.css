@@ -60,7 +60,7 @@ ul > li > span {
     text-align: center;
     font-size: 20px;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: none;
 }
 @media only screen and (min-width: 764px) {
   .footer-bar .contact {
@@ -73,7 +73,7 @@ ul > li > span {
     margin: 50px 0
   }
   .section .list {
-    padding: 50px 0 120px 0;
+    padding: 80px 0 120px 0;
   }
 
 }
