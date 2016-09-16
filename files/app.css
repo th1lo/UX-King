@@ -923,7 +923,7 @@ h2 {
       color: #FEB901; }
   .page-about .we-do .content .wrapper, .page-home .we-do .content .wrapper {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 0;
     margin: 0 50px;
     -webkit-transform: translateY(-50%);
