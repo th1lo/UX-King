@@ -1161,17 +1161,17 @@ h2 {
     width: 100%;
     background: #f1f1f1 center center no-repeat; }
     .page-about .clients .photo.crosslend, .page-home .clients .photo.crosslend {
-      background-size: 110px 19px; }
+      background-size: 146px 25px; }
     .page-about .clients .photo.partake, .page-home .clients .photo.partake {
       background-size: 124px 38px; }
     .page-about .clients .photo.deutschland-rundet-auf, .page-home .clients .photo.deutschland-rundet-auf {
-      background-size: 82px 23px; }
+      background-size: 82px 96px; }
     .page-about .clients .photo.tab, .page-home .clients .photo.tab {
-      background-size: 110px 26px; }
+      background-size: 81px 81px; }
     .page-about .clients .photo.studienkreis, .page-home .clients .photo.studienkreis {
-      background-size: 110px 32px; }
+      background-size: 138px 42px; }
     .page-about .clients .photo.cornelson-schulverlage, .page-home .clients .photo.cornelson-schulverlage {
-      background-size: 110px 28px; }
+      background-size: 140px 41px; }
     @media only screen and (max-width: 320px) {
       .page-about .clients .photo, .page-home .clients .photo {
         background-size: 40% auto !important; } }
