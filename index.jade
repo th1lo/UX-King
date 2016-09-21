@@ -51,10 +51,8 @@ html(lang="de")
     meta(property='og:url', content='https://ux-king.com/')
     link(rel='stylesheet', type='text/css', href='./files/app.min.css')
     script(src='https://use.typekit.net/hjf4xtn.js')
-    script(src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js')
-      $( document ).ready(function() {
-      var images = ['./assets/img/herobg.jpg' 'https://media.giphy.com/media/12C01e5YMVbTuE/giphy.gif'];
-      $('#hero').css({'background-image': 'url(images/' + images[Math.floor(Math.random() * images.length)] + ')'});});
+    script(src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js')
+    script(src='./files/hero.js')
     script.
       try{Typekit.load({ async: true });}catch(e){}
   body.page-home
@@ -84,8 +82,8 @@ html(lang="de")
     #hero
       .mask
         h1.memo
-          | Make UX Great Again
-          span .
+          | 
+          span 
         .mouse.scroll-link(go-to='.we-do')
           span
     .ux-king-menu
