@@ -52,8 +52,9 @@ html(lang="de")
     link(rel='stylesheet', type='text/css', href='./files/app.min.css')
     script(src='https://use.typekit.net/hjf4xtn.js')
     script(src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js')
+      $( document ).ready(function() {
       var images = ['./assets/img/herobg.jpg' 'https://media.giphy.com/media/12C01e5YMVbTuE/giphy.gif'];
-      $('#hero').css({'background-image': 'url(images/' + images[Math.floor(Math.random() * images.length)] + ')'});
+      $('#hero').css({'background-image': 'url(images/' + images[Math.floor(Math.random() * images.length)] + ')'});});
     script.
       try{Typekit.load({ async: true });}catch(e){}
   body.page-home
