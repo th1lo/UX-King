@@ -127,6 +127,7 @@ ul > li > span {
 }
 
 .page-about .we-do .graphic, .page-home .we-do .graphic img {
+  object-fit: cover;
   position: absolute;
   top: -50%;
   left: -50%;
