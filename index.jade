@@ -49,8 +49,11 @@ html(lang="de")
     meta(property='og:site_name', content='UX King | Webdesign Agentur aus Berlin')
     meta(property='og:type', content='website')
     meta(property='og:url', content='https://ux-king.com/')
-    link(rel='stylesheet', type='text/css', href='https://www.ux-king.com/files/app.min.css')
+    link(rel='stylesheet', type='text/css', href='./files/app.min.css')
     script(src='https://use.typekit.net/hjf4xtn.js')
+    script(src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js')
+      var images = ['./assets/img/herobg.jpg' 'https://media.giphy.com/media/12C01e5YMVbTuE/giphy.gif'];
+      $('#hero').css({'background-image': 'url(images/' + images[Math.floor(Math.random() * images.length)] + ')'});
     script.
       try{Typekit.load({ async: true });}catch(e){}
   body.page-home

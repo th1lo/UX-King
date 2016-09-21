@@ -772,7 +772,7 @@ h2 {
    width: 400px;
    background-color: #FEB901;
    margin: 2em auto;
-   box-shadow: 0 25px 40px -20px #FE9201;
+   box-shadow: 0 25px 40px -20px rgba(254,146,1,0.3);
    text-align: center;
    padding-top: 27px;
    color: #ffffff;
@@ -783,7 +783,7 @@ h2 {
    transition: box-shadow .4s;
  }
  .btn:hover {
-   box-shadow: 0 20px 40px -20px #FE7901;
+   box-shadow: 0 25px 40px -20px rgba(254,146,1,0.6);
    color: #FFF;
 
  }
