@@ -62,12 +62,52 @@ ul > li > span {
   font-weight: 700;
   text-transform: none;
 }
+
+.row.article {
+  margin: 0 !important;
+}
+.row.article > div > p {
+  width: calc(50% - 20px);
+  float: left;
+  margin: 0 40px 0 0;
+}
+.row.article > div > img {
+  padding: 0 0 50px 0px;
+  width: calc(50% - 20px);
+}
+.comparison {
+  margin: 0 0 80px;
+}
+
 @media only screen and (max-width: 890px) {
     .page-about .we-do .row .graphic, .page-home .we-do .row .graphic {
       padding: 0;
     }
     .page-about .we-do .row .content, .page-home .we-do .row .content {
       padding: 435px 0 0;
+    }
+    .row.article {
+      margin: 0 !important;
+    }
+    .row.article > div  {
+      padding: 300px 0 0 0;
+    }
+    .row.article > div > p {
+      width: auto;
+      float: left;
+      margin: 0;
+    }
+    .row.article > div > img {
+      object-fit: cover;
+      position: absolute;
+      left: 0;
+      top: 0;
+      padding: 0 0 50px 0px;
+      width: 100%;
+      max-height: 250px;
+    }
+    .comparison {
+      margin: 0 0 80px;
     }
 }
 
@@ -105,10 +145,12 @@ ul > li > span {
   .mobile-imprint {
     margin: 50px 0
   }
+  .section-header {
+    padding: 0 !important;
+  }
   .section .list {
     padding: 80px 0 0 0;
   }
-
 }
 @media only screen and (max-width: 763px) {
   .work-with {
