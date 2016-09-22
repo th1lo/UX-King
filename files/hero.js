@@ -1,5 +1,5 @@
 var images = {
-  background: ["https://media.giphy.com/media/beyUZ1fJVWfyE/giphy.gif", "https://media.giphy.com/media/oxsfuzJuJzCjm/giphy.gif" , "https://media.giphy.com/media/MOCoGGiHjBsic/giphy.gif", "https://media.giphy.com/media/YrHOrXFvW4Nk4/giphy.gif", "http://i.imgur.com/o6yQo2r.gif","http://i.imgur.com/Yffu60C.gif","https://media.giphy.com/media/gngO1gmBhS9na/giphy.gif","http://pop.h-cdn.co/assets/16/35/1472752799-ezgifcom-optimize-2.gif"],
+  background: ["https://media.giphy.com/media/beyUZ1fJVWfyE/giphy.gif", "https://media.giphy.com/media/oxsfuzJuJzCjm/giphy.gif" , "https://media.giphy.com/media/MOCoGGiHjBsic/giphy.gif", "https://media.giphy.com/media/YrHOrXFvW4Nk4/giphy.gif", "http://i.imgur.com/o6yQo2r.gif","http://i.imgur.com/Yffu60C.gif","https://media.giphy.com/media/tvGOBZKNEX0ac/giphy.gif","http://pop.h-cdn.co/assets/16/35/1472752799-ezgifcom-optimize-2.gif"],
   text: ["UX & Webdesign Agentur aus Berlin","Make Your UX Great Again","We Can Fix Your Product Retention", "Better UX For Harambe", "We Help You Create Innovative Products","Never Stop Improving","Create Easy To Use Products","Testing Is Improtant"]
 };
 
