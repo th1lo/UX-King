@@ -50,6 +50,7 @@ html(lang="de")
     meta(property='og:type', content='website')
     meta(property='og:url', content='https://ux-king.com/')
     link(rel='stylesheet', type='text/css', href='./files/app.min.css')
+    link(rel='stylesheet', type='text/css', href='./files/animate.css')
     script(src='https://use.typekit.net/hjf4xtn.js')
     script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js')
     script.
@@ -80,9 +81,8 @@ html(lang="de")
                 span.after
     #hero
       .mask
-        h1.memo
+        h1.memo.tlt
           | 
-          span 
         .mouse.scroll-link(go-to='.we-do')
           span
     .ux-king-menu
@@ -245,6 +245,8 @@ html(lang="de")
             .footer-bar
               .section-content
                   a(href='https://www.ux-king.com/impressum/' , title='Impressum') Impressum
-    script(type='text/javascript', src='https://www.ux-king.com/files/main.js')
+    script(type='text/javascript', src='./files/main.js')
+    script(type='text/javascript', src='./files/jquery.lettering-0.6.1.min.js')
+    script(type='text/javascript', src='./files/jquery.textillate.js')
     script(src='./files/hero.js')
     script(src='https://www.ux-king.com/files/analytics.js')

@@ -502,7 +502,7 @@ h2 {
     text-transform: uppercase;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%); }
-    #hero .memo span {
+    #hero > div > h1 > span > span:last-child > span:last-child, .dot {
       color: #FEB902; }
   #hero .mouse {
     cursor: pointer;
