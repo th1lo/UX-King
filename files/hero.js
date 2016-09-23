@@ -9,7 +9,7 @@ function newHero(){
     $(this).css('background-image', 'url(' + images.background[random] + ')');
   }).fadeTo('slow', 1);
   console.log('background');
-  $('.memo').fadeOut(function() {
+  $('h1.memo').fadeOut(function() {
     $(this).html(images.text[random]+ '<span class="dot">.</span>').delay(1000).fadeIn();
   });
   console.log('intial text: '+ images.text[random]+' ('+images.text[random].length+')');
