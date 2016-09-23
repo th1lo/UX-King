@@ -3,16 +3,29 @@ var images = {
   text: ["UX & Webdesign Agentur aus Berlin","Make Your UX Great Again","We Can Fix Your Product Retention", "Better UX For Harambe", "We Help You Create Innovative Products","Never Stop Improving","Create Easy To Use Products","Testing Is Improtant"]
 };
 
+var uniqueRandoms = [];
+var numRandoms = images.background.length;
+function makeUniqueRandom() {
+    if (!uniqueRandoms.length) {
+        for (var i = 0; i < numRandoms; i++) {
+            uniqueRandoms.push(i);
+        }
+    }
+    var index = Math.floor(Math.random() * uniqueRandoms.length);
+    var val = uniqueRandoms[index];
+    uniqueRandoms.splice(index, 1);
+    return val;
+}
+
 function newHero(){
-  var random = Math.floor(Math.random() * images.background.length);
+  var rand = makeUniqueRandom();
+  console.log(rand);
   $('#hero').fadeTo('slow', 0.9, function() {
-    $(this).css('background-image', 'url(' + images.background[random] + ')');
+    $(this).css('background-image', 'url(' + images.background[rand] + ')');
   }).fadeTo('slow', 1);
-  console.log('background');
   $('h1.memo').fadeOut(function() {
-    $(this).html(images.text[random]+ '<span class="dot">.</span>').delay(1000).fadeIn();
+    $(this).html(images.text[rand]+ '<span class="dot">.</span>').delay(1000).fadeIn();
   });
-  console.log('intial text: '+ images.text[random]+' ('+images.text[random].length+')');
 }
 
 newHero();
