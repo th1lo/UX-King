@@ -4,7 +4,6 @@ function isMobile() {
 }
 
 if (isMobile()) {
-	// Mobile
   var images = {
     background: [
       "https://www.ux-king.com/assets/gif/berlin.jpg",
@@ -27,7 +26,6 @@ if (isMobile()) {
   };
 }
 else {
-	// Desktop
   var images = {
     background: [
       "https://www.ux-king.com/assets/gif/berlin.gif",
@@ -66,7 +64,7 @@ function makeUniqueRandom() {
 
 function newHero(){
   var rand = makeUniqueRandom();
-  console.log(rand);
+  console.log('Active Hero: '+images.text[rand]);
   $('#hero').fadeTo('slow', 0.9, function() {
     $(this).css('background-image', 'url(' + images.background[rand] + ')');
   }).fadeTo('slow', 1);
@@ -75,5 +73,29 @@ function newHero(){
   });
 }
 
+var intervalId = setInterval(newHero, 7000);
+console.log('New Interval (Id:'+intervalId+')');
 newHero();
-window.setInterval(newHero, 7000);
+
+$(document).keydown(function(e){
+  if (e.keyCode === 27) {
+    console.log('Stopped Interval (Id:'+intervalId+')');
+    clearInterval(intervalId);
+    newHero();
+  }
+});
+
+var outOfView = false;
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() >= 700 && !outOfView) {
+    console.log('Stopped Interval (Id:'+intervalId+')');
+    clearInterval(intervalId);
+    outOfView = true;
+  } if ($(window).scrollTop() <= 500 && outOfView) {
+    intervalId = setInterval(newHero, 7000);
+    console.log('New Interval (Id:'+intervalId+')');
+    newHero();
+    outOfView = false;
+  }
+});
