@@ -111,7 +111,8 @@ html(lang="de")
           .layer(data-midnight='blue', style='height: 1239px;')
           .layer(data-midnight='default', style='height: 911px;')
           .layer(data-midnight='blue', style='height: 1428px;')
-          .layer(data-midnight='blue')
+          .layer(data-midnight='blue', style='height: 1428px;')
+          .layer(data-midnight='blue', style='height: 1428px;')
         .scrollable-spacer(style='height: 3114px;')
         .section.scrollable.we-do(style='z-index: 1;')
           .fixed
@@ -238,12 +239,23 @@ html(lang="de")
             .cell.third
               .wrapper
                 .photo.crosslend(style='background-image: url(https://www.ux-king.com/assets/img/crosslend.png)')
-            .work-with
-              h5.red-period Kontaktieren Sie uns, für ein kostenloses Erstgespr&auml;ch
-              a.btn(href='mailto:projekt@ux-king.com', title='Contact us') Kostenlose Beratung anfordern
-            .footer-bar
-              .section-content
-                  a(href='https://www.ux-king.com/impressum/' , title='Impressum') Impressum
+        .section.scrollable.section-blue.articles(data-midnight='blue', style='z-index: 5;')
+          .section-header
+            h3.section-title More About Design
+          .section-content
+            .articles-wrapper
+              .list
+                .articlelistview.active
+                  h5 Mit UX-Testing viel Geld sparen
+                  p.preview
+                    | Es gibt meiner Meinung nach nichts wichtigeres im UX Design, als seine Ideen und Entwürfe einem UX Testing zu unterziehen
+        .section.scrollable.contact(data-midnight='blue', style='z-index: 6;')
+          .work-with
+            h5.red-period Kontaktieren Sie uns, für ein kostenloses Erstgespr&auml;ch
+            a.btn(href='mailto:projekt@ux-king.com', title='Contact us') Kostenlose Beratung anfordern
+          .footer-bar
+            .section-content
+                a(href='https://www.ux-king.com/impressum/' , title='Impressum') Impressum
     script(type='text/javascript', src='./files/main.js')
     script(src='./files/hero.min.js')
     script(src='https://www.ux-king.com/files/analytics.js')
