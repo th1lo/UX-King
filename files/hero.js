@@ -22,7 +22,7 @@ if (isMobile()) {
       "We Help You Create Innovative Products",
       "Never Stop Improving",
       "Create Easy To Use Products",
-      "Testing Is Improtant"]
+      "Testing Is Important"]
   };
 }
 else {
