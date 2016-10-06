@@ -710,7 +710,7 @@ h2 {
     }
     .ux-king-menu .toggle-menu {
       top: 20px;
-      right: 21px; }
+      right: 15px; }
     }
 
 /**
@@ -1038,7 +1038,10 @@ h2 {
         clear: left !important; } }
   @media only screen and (max-width: 763px) {
     .page-about .how-we, .page-home .how-we {
-      display: none !important; } }
+      /*display: none !important;*/ }
+      .page-about .how-we .cell, .page-home .how-we .cell {
+        width: 100%; }
+       }
 
 .page-about .team, .page-home .team {
   padding-bottom: 80px; }
