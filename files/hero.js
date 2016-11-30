@@ -6,14 +6,14 @@ function isMobile() {
 if (isMobile()) {
   var images = {
     background: [
-      "https://www.ux-king.com/assets/gif/berlin.jpg",
-      "https://www.ux-king.com/assets/gif/trump.jpg",
-      "https://www.ux-king.com/assets/gif/retention.jpg",
-      "https://www.ux-king.com/assets/gif/harambe.jpg",
-      "https://www.ux-king.com/assets/gif/innovative.jpg",
-      "https://www.ux-king.com/assets/gif/improving.jpg",
-      "https://www.ux-king.com/assets/gif/confused.jpg",
-      "https://www.ux-king.com/assets/gif/testing.jpg"],
+      "./assets/gif/berlin.jpg",
+      "./assets/gif/trump.jpg",
+      "./assets/gif/retention.jpg",
+      "./assets/gif/harambe.jpg",
+      "./assets/gif/innovative.jpg",
+      "./assets/gif/improving.jpg",
+      "./assets/gif/confused.jpg",
+      "./assets/gif/testing.jpg"],
     text: [
       "UX & Webdesign Agentur aus Berlin",
       "Make Your UX Great Again",
@@ -28,14 +28,14 @@ if (isMobile()) {
 else {
   var images = {
     background: [
-      "https://www.ux-king.com/assets/gif/berlin.gif",
-      "https://www.ux-king.com/assets/gif/trump.gif",
-      "https://www.ux-king.com/assets/gif/retention.gif",
-      "https://www.ux-king.com/assets/gif/harambe.gif",
-      "https://www.ux-king.com/assets/gif/innovative.gif",
-      "https://www.ux-king.com/assets/gif/improving.gif",
-      "https://www.ux-king.com/assets/gif/confused.gif",
-      "https://www.ux-king.com/assets/gif/testing.gif"],
+      "./assets/gif/berlin.gif",
+      "./assets/gif/trump.gif",
+      "./assets/gif/retention.gif",
+      "./assets/gif/harambe.gif",
+      "./assets/gif/innovative.gif",
+      "./assets/gif/improving.gif",
+      "./assets/gif/confused.gif",
+      "./assets/gif/testing.gif"],
     text: [
       "UX & Webdesign Agentur aus Berlin",
       "Make Your UX Great Again",
