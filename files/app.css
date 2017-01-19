@@ -919,7 +919,8 @@ h2 {
     margin: 0 0 26px 0;
     line-height: 1; }
     .page-about .we-do .content .title:after, .page-home .we-do .content .title:after {
-      content: '.';
+      /* Dot at the End */
+      content: '';
       color: #FEB901; }
   .page-about .we-do .content .wrapper, .page-home .we-do .content .wrapper {
     position: absolute;
