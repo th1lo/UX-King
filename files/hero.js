@@ -16,7 +16,7 @@ if (isMobile()) {
       "./assets/gif/testing.jpg"],
     text: [
       "UX & Webdesign Agentur aus Berlin",
-      "We Help You Grow Your Business",
+      "Together We Can Grow Your Business",
       "We Can Fix Your Product Retention",
       "We Love New Challenges",
       "We Help You Create Innovative Products",
@@ -38,7 +38,7 @@ else {
       "./assets/gif/testing.gif"],
     text: [
 			"UX & Webdesign Agentur aus Berlin",
-      "We Help You Grow Your Business",
+      "Together We Can Grow Your Business",
       "We Can Fix Your Product Retention",
       "We Love New Challenges",
       "We Help You Create Innovative Products",
