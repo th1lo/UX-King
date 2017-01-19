@@ -410,7 +410,7 @@ h2 {
     clear: both; }
 
 .red-period:after {
-  content: '.';
+  content: '';
   color: #FEB901; }
 
 /**
