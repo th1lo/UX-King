@@ -7,18 +7,18 @@ if (isMobile()) {
   var images = {
     background: [
       "./assets/gif/berlin.jpg",
-      "./assets/gif/trump.jpg",
+      "./assets/gif/grow.jpg",
       "./assets/gif/retention.jpg",
-      "./assets/gif/harambe.jpg",
+      "./assets/gif/challenge.jpg",
       "./assets/gif/innovative.jpg",
       "./assets/gif/improving.jpg",
       "./assets/gif/confused.jpg",
       "./assets/gif/testing.jpg"],
     text: [
       "UX & Webdesign Agentur aus Berlin",
-      "Make Your UX Great Again",
+      "We Help You Grow Your Business",
       "We Can Fix Your Product Retention",
-      "Better UX For Harambe",
+      "We Love New Challenges",
       "We Help You Create Innovative Products",
       "Never Stop Improving",
       "Create Easy To Use Products",
@@ -29,22 +29,22 @@ else {
   var images = {
     background: [
       "./assets/gif/berlin.gif",
-      "./assets/gif/trump.gif",
+      "./assets/gif/grow.gif",
       "./assets/gif/retention.gif",
-      "./assets/gif/harambe.gif",
+      "./assets/gif/challenge.gif",
       "./assets/gif/innovative.gif",
       "./assets/gif/improving.gif",
       "./assets/gif/confused.gif",
       "./assets/gif/testing.gif"],
     text: [
-      "UX & Webdesign Agentur aus Berlin",
-      "Make Your UX Great Again",
+			"UX & Webdesign Agentur aus Berlin",
+      "We Help You Grow Your Business",
       "We Can Fix Your Product Retention",
-      "Better UX For Harambe",
+      "We Love New Challenges",
       "We Help You Create Innovative Products",
       "Never Stop Improving",
       "Create Easy To Use Products",
-      "Testing Is Improtant"]
+      "Testing Is Important"]
   };
 }
 
